@@ -1,0 +1,43 @@
+\documentclass[letterpaper,102pt]{article}
+
+
+\pagestyle{empty}
+
+
+
+
+\begin{document}
+
+\noindent \textbf{QGP parameter extraction via a global analysis of event-by-event flow coefficient distributions} \\
+Jonah E.\ Bernhard  and Steffen A.\ Bass (Duke University) \\[1ex]
+
+
+\noindent A primary goal of heavy-ion physics is the measurement of the fundamental properties of the quark-gluon plasma (QGP), notably its
+transport coefficients, such as the specific shear viscosity $\eta/s$.  Since these properties are not directly measurable, one relies on a
+comparison of the data to computational models of the time-evolution of the collision to connect measured observables to the properties of
+the transient QGP state.  The computational model parameters are tuned such that simulated observables optimally match experimental data.
+
+Most studies to date are severely limited by computation time:  they typically rely on averaged quantities such as the average elliptic flow
+coefficient $\langle v_2 \rangle$ for a given centrality bin---disregarding the effects of event-by-event fluctuations---and use ad hoc
+methods for optimizing model parameters.  Often, each parameter is varied independently, while best-fit values are chosen via qualitative
+comparisons to single observables.  This neglects correlations among parameters and leads to nebulous results lacking quantitative
+uncertainty.
+
+We propose a systematic model-to-data comparison method for extracting QGP properties.  First, a set of salient model parameters is chosen
+for calibration---physical properties such as transport coefficients are of primary interest.  An event-by-event model is then evaluated at
+many points in parameter space; this is made possible by recent advances in high-throughput computing.  Finally, a statistical surrogate
+algorithm is used to interpolate the parameter space and determine the values which optimally reproduce experimental data.  This provides
+rigorous constraints including quantitative uncertainty and sheds light on the relative importance of each parameter.  
+
+The methodology is applied to a modern hybrid model with MC-Glauber and MC-KLN initial conditions, viscous 2+1D hydrodynamics, and the
+hadron cascade UrQMD.  By leveraging the power of the Open Science Grid, we have run event-by-event simulations over wide ranges of several
+crucial parameters, e.g.\ the shear viscosity and hydrodynamic thermalization time.  We calibrate the model to experimental event-by-event
+flow distributions measured by the ATLAS experiment; these distributions are sensitive to initial-state fluctuations and therefore
+constitute a more comprehensive probe of the QGP than event-averaged flow.
+
+This massive-scale model-to-comparison yields new constraints on fundamental QGP properties and clarifies the essential features of a
+physically accurate model.  The method is general and easily extensible to future studies.
+
+
+
+\end{document}
