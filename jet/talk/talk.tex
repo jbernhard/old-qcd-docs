@@ -568,11 +568,13 @@
 \end{frame}
 
 
-\begin{frame}{Emulated Bessel-Gaussian parameters}
+\begin{frame}[label=emuplots]{Emulated Bessel-Gaussian parameters}
   \vspace{3mm}
-  \includegraphics<1>{emu0}
-  \includegraphics<2>{emu1}
-  \includegraphics<3>{emu2}
+  \hyperlink{caveats}{
+    \includegraphics<1>{emu0}
+    \includegraphics<2>{emu1}
+    \includegraphics<3>{emu2}
+  }
 \end{frame}
 
 
@@ -698,6 +700,18 @@
   \end{itemize}
 
   \backbutton{atlas}
+\end{frame}
+
+
+\begin{frame}[label=caveats]{Caveats}
+  \begin{itemize}
+    \item Results still qualitative.
+    \item Some Bessel-Gaussian fit parameters are incorrect (MLE two-solution problem / low SNR).
+    \item Uncertainties not quantified.
+    \item Parameter space not systematically explored.
+  \end{itemize}
+
+  \backbutton{emuplots}
 \end{frame}
 
 
