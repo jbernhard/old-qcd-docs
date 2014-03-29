@@ -1,0 +1,82 @@
+% summary.tex
+% created 14:48:48 on Sat 29 Mar 2014
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage[letterpaper]{geometry}
+
+\title{Annual report}
+\author{Jonah Bernhard}
+
+
+\begin{document}
+
+\maketitle
+
+
+
+\section{Primary project}
+
+My primary project is called \emph{QGP parameter extraction via a global analysis of event-by-event flow coefficient distributions}.  I am
+conducting a systematic model-to-data comparison in order to quantify the fundamental properties of the quark-gluon plasma (QGP).  
+The measurement of these properties is a primary goal of heavy-ion physics.
+
+Heavy-ion collisions produce a hot, dense phase of strongly-interacting matter known as the quark-gluon plasma (QGP) which quickly
+(${\sim}10^{-23}$ s) expands and freezes into discrete particles.  The QGP cannot be observed directly---only final-state particles are
+detectable---so computer models are used to indirectly characterize the medium.  A successful model must simulate the time-evolution of the
+collision and connect measured observables to the properties of the transient QGP state.
+
+The computational model takes a set of input parameters, including physical properties of the QGP.  Parameters are constrained by
+calibrating the model to data, i.e.\ tuning model parameters such that simulated observables optimally match experimental data.  
+
+Modern models use a ``hybrid'' approach with relativistic fluid dynamics for the early hot and dense phase followed by non-equilibrium
+transport for the later dilute gas phase.  Hybrid models have provided approximate descriptions of a variety of observables, but are
+computationally expensive and therefore difficult to test systematically.  Most studies to date rely on averaged quantities such as the
+average elliptic flow coefficient $\langle v_2 \rangle$ for a given centrality bin---disregarding the effects of event-by-event
+fluctuations---and use ad hoc methods for optimizing model parameters.  Often, each parameter is varied independently, while best-fit values
+are chosen via qualitative comparisons to single observables.  This neglects correlations among parameters and leads to nebulous results
+lacking quantitative uncertainty.
+
+I am developing a systematic model-to-data comparison method for extracting QGP properties.  First, a set of salient model parameters is
+chosen for calibration---physical properties such as transport coefficients are of primary interest.  An event-by-event model is then
+evaluated at many points in parameter space; this is made possible by recent advances in high-throughput computing.  Finally, a statistical
+surrogate algorithm is used to interpolate the parameter space and determine the values which optimally reproduce experimental data.  This
+provides rigorous constraints including quantitative uncertainty and sheds light on the relative importance of each parameter.  
+
+The methodology is applied to a modern hybrid model with MC-Glauber and MC-KLN initial conditions, viscous 2+1D hydrodynamics, and the
+hadron cascade UrQMD.  By leveraging the power of the Open Science Grid, I have run event-by-event simulations over wide ranges of several
+crucial parameters, e.g.\ the shear viscosity $\eta/s$ and hydrodynamic thermalization time.  I am in the process of calibrating the model
+to experimental event-by-event flow distributions measured by the ATLAS experiment; these distributions are sensitive to initial-state
+fluctuations and therefore constitute a more comprehensive probe of the QGP than event-averaged flow.
+
+This massive-scale model-to-data comparison will yield new constraints on fundamental QGP properties and clarify the essential features of a
+physically accurate model.
+
+The current goal of this project is to develop and validate the model-to-data comparison framework.  This is a significant undertaking,
+requiring the creation of a new system for deploying computational models on the Open Science Grid and analyzing the results.  This phase is
+nearing completion, with publishable results anticipated this summer.  Further, the method is general and easily extensible to future
+studies.  I plan to repeat the analysis with more advanced computational models.
+
+
+
+
+\section{Other projects}
+
+While most research effort is devoted to the above project, other ventures are in progress.  We are collaborating with the Nagoya
+University group to develop a new 3+1D viscous hydrodynamics model and hypersurface sampler.
+
+The 3+1D hydro model will be one of the few full-3D models in the field, enabling state of the art simulations and benefiting numerous
+projects in the Duke group.  While the bulk of the software development is taking place at Nagoya, I am acting as a liaison and assisting in
+testing the model.
+
+All hybrid models require a hypersurface sampler, which produces an ensemble of particles after hydro evolution is complete.  Many samplers
+are in use today, but most are inefficient and lack documentation and proper testing.  I am developing a new, fast sampler for use with the
+3+1D hydro model.  It will include rigorous validation and be flexible enough for any research group to use.  The goal is not only to create
+a new piece of software, but to standardize this critical component of heavy-ion collision models across the field.
+
+The hydrodynamics model and hypersurface sampler will eventually be used in my model-to-data comparison framework.
+
+
+
+
+\end{document}
