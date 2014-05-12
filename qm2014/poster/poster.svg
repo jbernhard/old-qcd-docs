@@ -29366,10 +29366,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.33"
-     inkscape:cx="2188.3775"
-     inkscape:cy="1583.798"
+     inkscape:cx="1772.2031"
+     inkscape:cy="1504.5668"
      inkscape:document-units="in"
-     inkscape:current-layer="g12842"
+     inkscape:current-layer="layer5"
      showgrid="false"
      units="in"
      inkscape:showpageshadow="false"
@@ -29412,6 +29412,10 @@
        orientation="0,1"
        position="1069.697,2462.8094"
        id="guide12535" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="651.60059,1761.4271"
+       id="guide11689" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -29421,7 +29425,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -29746,7 +29750,7 @@
        xml:space="preserve"
        id="flowRoot12517"
        style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:110.00000238%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#262626;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-       transform="translate(-42.176758,30.816529)"><flowRegion
+       transform="translate(-42.176758,8.816529)"><flowRegion
          id="flowRegion12519"><rect
            id="rect12521"
            width="907.06213"
@@ -29760,7 +29764,7 @@
    style="font-size:32px;font-weight:bold;fill:#262626;fill-opacity:1"
    id="flowSpan12539">event-by-event</flowSpan> hybrid model to experimental flow probability distributions.</flowPara></flowRoot>    <g
        id="g12842"
-       transform="translate(0,18)"
+       transform="translate(0,-4)"
        style="stroke-linecap:butt;stroke-linejoin:round">
       <text
          sodipodi:linespacing="100%"
@@ -29925,7 +29929,7 @@
     <g
        id="g12873"
        style="stroke-linecap:butt;stroke-linejoin:round"
-       transform="translate(0,20)">
+       transform="translate(0,-2)">
       <flowRoot
          xml:space="preserve"
          id="flowRoot12670"
@@ -30077,7 +30081,7 @@
        xml:space="preserve"
        id="flowRoot12786"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:110.00000238%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#262626;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-       transform="translate(-42.176758,592.81653)"><flowRegion
+       transform="translate(-42.176758,570.81653)"><flowRegion
          id="flowRegion12788"><rect
            id="rect12790"
            width="907.06219"
@@ -30109,190 +30113,207 @@
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#262626;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
        x="134.60449"
-       y="1218.1542"
+       y="1196.1542"
        id="text12836"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          id="tspan12838"
          x="134.60449"
-         y="1218.1542">Over <tspan
+         y="1196.1542">Over <tspan
    style="font-weight:bold;fill:#262626;fill-opacity:1"
    id="tspan12840">3.5 million events</tspan> have been calculated.</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:30px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#9c3435;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-       x="1072.9294"
-       y="1351.7393"
-       id="text13007"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan13009"
-         x="1072.9294"
-         y="1351.7393">Flow results summary</tspan></text>
     <g
-       id="g13052"
-       style="stroke-linecap:butt;stroke-linejoin:round"
-       transform="translate(0,18)">
+       id="g11691"
+       transform="translate(0,-18.790855)"
+       style="stroke-linecap:butt;stroke-linejoin:round">
+      <text
+         sodipodi:linespacing="100%"
+         id="text13007"
+         y="1351.7393"
+         x="1072.9294"
+         style="font-size:30px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#9c3435;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
+         xml:space="preserve"><tspan
+           y="1351.7393"
+           x="1072.9294"
+           id="tspan13009"
+           sodipodi:role="line">Flow results summary</tspan></text>
+      <g
+         transform="translate(0,18)"
+         style="stroke-linecap:butt;stroke-linejoin:round"
+         id="g13052">
+        <flowRoot
+           transform="translate(-13.52175,850.81653)"
+           style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:114.99999762%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#262626;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
+           id="flowRoot12909"
+           xml:space="preserve"><flowRegion
+             id="flowRegion12911"><rect
+               style="font-size:24px;font-weight:normal;text-align:justify;line-height:114.99999762%;text-anchor:start;fill:#262626;fill-opacity:1;-inkscape-font-specification:Open Sans"
+               y="507.19019"
+               x="176.77669"
+               height="192.5742"
+               width="907.06219"
+               id="rect12913" /></flowRegion><flowPara
+             id="flowPara12915">Average flow  <flowSpan
+   style="font-style:italic;line-height:114.99999762%"
+   id="flowSpan12941">v<flowSpan
+   style="font-size:65.00091553%;line-height:114.99999762%;baseline-shift:sub"
+   id="flowSpan12943">n</flowSpan></flowSpan> , width <flowSpan
+   style="font-style:italic;line-height:114.99999762%"
+   id="flowSpan12953">σ<flowSpan
+   style="font-size:65.00091553%;line-height:114.99999762%;baseline-shift:sub"
+   id="flowSpan12955">n</flowSpan></flowSpan>, and relative width <flowSpan
+   style="font-style:italic;line-height:114.99999762%"
+   id="flowSpan12959">σ<flowSpan
+   style="font-size:65.00091553%;line-height:114.99999762%;baseline-shift:sub"
+   id="flowSpan12967">n</flowSpan></flowSpan>/ <flowSpan
+   style="font-style:italic;line-height:114.99999762%"
+   id="flowSpan12961">v<flowSpan
+   style="font-size:65.00091553%;line-height:114.99999762%;baseline-shift:sub"
+   id="flowSpan12963">n</flowSpan></flowSpan>  for <flowSpan
+   style="font-style:italic;fill:#08519c;fill-opacity:1"
+   id="flowSpan12975">v</flowSpan><flowSpan
+   style="font-size:65.00091553%;baseline-shift:sub;fill:#08519c;fill-opacity:1"
+   id="flowSpan12981">2</flowSpan>, <flowSpan
+   style="font-style:italic;fill:#006d2c;fill-opacity:1"
+   id="flowSpan12977">v</flowSpan><flowSpan
+   style="font-size:65.00091553%;baseline-shift:sub;fill:#006d2c;fill-opacity:1"
+   id="flowSpan12983">3</flowSpan>, and <flowSpan
+   style="font-style:italic;fill:#a63603;fill-opacity:1"
+   id="flowSpan12979">v</flowSpan><flowSpan
+   style="font-size:65.00091553%;baseline-shift:sub;fill:#a63603;fill-opacity:1"
+   id="flowSpan12985">4</flowSpan> as a function of centrality (<flowSpan
+   style="font-style:italic"
+   id="flowSpan13001">N</flowSpan><flowSpan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="flowSpan13003">part</flowSpan>).  Colored curves represent model calculations; each plot contains 256 curves corresponding to the 256 points in parameter space.</flowPara><flowPara
+             id="flowPara12987" /><flowPara
+             id="flowPara12989">Points are experimental data measured by the ATLAS Collaboration, JHEP <flowSpan
+   style="font-weight:bold"
+   id="flowSpan12991">1311</flowSpan>, 183 (2013).  Error bars are systematic uncertainties.</flowPara><flowPara
+             id="flowPara12925" /></flowRoot>        <g
+           style="stroke-linecap:butt;stroke-linejoin:round"
+           id="g13042">
+          <path
+             style="fill:none;stroke:#262626;stroke-width:1.375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+             d="m 343.51881,1361.8405 4.76701,10.4359 -4.76701,10.4358"
+             id="path12949"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="ccc" />
+          <path
+             sodipodi:nodetypes="ccc"
+             inkscape:connector-curvature="0"
+             id="path12951"
+             d="m 320.11523,1361.8405 -4.76702,10.4359 4.76702,10.4358"
+             style="fill:none;stroke:#262626;stroke-width:1.375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        </g>
+        <g
+           id="g13046"
+           transform="translate(390.51579,0)"
+           style="stroke-linecap:butt;stroke-linejoin:round">
+          <path
+             sodipodi:nodetypes="ccc"
+             inkscape:connector-curvature="0"
+             id="path13048"
+             d="m 343.51881,1361.8405 4.76701,10.4359 -4.76701,10.4358"
+             style="fill:none;stroke:#262626;stroke-width:1.375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+          <path
+             style="fill:none;stroke:#262626;stroke-width:1.375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+             d="m 320.11523,1361.8405 -4.76702,10.4359 4.76702,10.4358"
+             id="path13050"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="ccc" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g11670"
+       transform="translate(0,7.6222631)"
+       style="stroke-linecap:butt;stroke-linejoin:round">
+      <text
+         xml:space="preserve"
+         style="font-size:30px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#9c3435;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
+         x="1072.9294"
+         y="1849.7393"
+         id="text13084"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan13086"
+           x="1072.9294"
+           y="1849.7393">Interpolation with a Gaussian process emulator</tspan></text>
+      <flowRoot
+         transform="translate(-13.52175,1404.8165)"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:114.99999762%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#262626;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
+         id="flowRoot13090"
+         xml:space="preserve"><flowRegion
+           id="flowRegion13092"><rect
+             style="font-size:24px;font-weight:normal;text-align:justify;line-height:114.99999762%;text-anchor:start;fill:#262626;fill-opacity:1;-inkscape-font-specification:Open Sans"
+             y="507.19019"
+             x="176.77669"
+             height="192.5742"
+             width="907.06219"
+             id="rect13094" /></flowRegion><flowPara
+           id="flowPara13136">Model output is interpolated with a Gaussian process emulator.  The emulator provides <flowSpan
+   style="font-weight:bold"
+   id="flowSpan11726">fast predictions</flowSpan> at <flowSpan
+   id="flowSpan13223"
+   style="font-weight:bold">arbitrary points</flowSpan> in parameter space with <flowSpan
+   id="flowSpan13225"
+   style="font-weight:bold">quantitative uncertainty</flowSpan>.</flowPara><flowPara
+           id="flowPara13219" /><flowPara
+           id="flowPara13227">Shown here are emulator predictions of the centrality dependence of flow distribution parameters for several values of <flowSpan
+   id="flowSpan13231"
+   style="font-style:italic;font-weight:bold">η</flowSpan><flowSpan
+   id="flowSpan13235"
+   style="font-weight:bold">/</flowSpan><flowSpan
+   id="flowSpan13233"
+   style="font-style:italic;font-weight:bold">s</flowSpan>.  Other parameters are fixed at reasonable defaults.</flowPara></flowRoot>    </g>
+    <g
+       id="g11652"
+       transform="translate(0,5.9492767)"
+       style="stroke-linecap:butt;stroke-linejoin:round">
+      <text
+         sodipodi:linespacing="100%"
+         id="text13239"
+         y="2511.7393"
+         x="1072.9294"
+         style="font-size:30px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#9c3435;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
+         xml:space="preserve"><tspan
+           y="2511.7393"
+           x="1072.9294"
+           id="tspan13241"
+           sodipodi:role="line">Constraining <tspan
+   id="tspan13267"
+   style="font-style:italic">η</tspan>/<tspan
+   id="tspan13265"
+   style="font-style:italic">s</tspan></tspan></text>
       <flowRoot
          xml:space="preserve"
-         id="flowRoot12909"
+         id="flowRoot13243"
          style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:114.99999762%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#262626;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-         transform="translate(-13.52175,850.81653)"><flowRegion
-           id="flowRegion12911"><rect
-             id="rect12913"
+         transform="translate(-13.52175,2060.8165)"><flowRegion
+           id="flowRegion13245"><rect
+             id="rect13247"
              width="907.06219"
              height="192.5742"
              x="176.77669"
              y="507.19019"
              style="font-size:24px;font-weight:normal;text-align:justify;line-height:114.99999762%;text-anchor:start;fill:#262626;fill-opacity:1;-inkscape-font-specification:Open Sans" /></flowRegion><flowPara
-           id="flowPara12915">Average flow  <flowSpan
-   id="flowSpan12941"
-   style="font-style:italic;line-height:114.99999762%">v<flowSpan
-   id="flowSpan12943"
-   style="font-size:65.00091553%;line-height:114.99999762%;baseline-shift:sub">n</flowSpan></flowSpan> , width <flowSpan
-   id="flowSpan12953"
-   style="font-style:italic;line-height:114.99999762%">σ<flowSpan
-   id="flowSpan12955"
-   style="font-size:65.00091553%;line-height:114.99999762%;baseline-shift:sub">n</flowSpan></flowSpan>, and relative width <flowSpan
-   id="flowSpan12959"
-   style="font-style:italic;line-height:114.99999762%">σ<flowSpan
-   id="flowSpan12967"
-   style="font-size:65.00091553%;line-height:114.99999762%;baseline-shift:sub">n</flowSpan></flowSpan>/ <flowSpan
-   id="flowSpan12961"
-   style="font-style:italic;line-height:114.99999762%">v<flowSpan
-   id="flowSpan12963"
-   style="font-size:65.00091553%;line-height:114.99999762%;baseline-shift:sub">n</flowSpan></flowSpan>  for <flowSpan
-   id="flowSpan12975"
-   style="font-style:italic;fill:#08519c;fill-opacity:1">v</flowSpan><flowSpan
-   id="flowSpan12981"
-   style="font-size:65.00091553%;baseline-shift:sub;fill:#08519c;fill-opacity:1">2</flowSpan>, <flowSpan
-   id="flowSpan12977"
-   style="font-style:italic;fill:#006d2c;fill-opacity:1">v</flowSpan><flowSpan
-   id="flowSpan12983"
-   style="font-size:65.00091553%;baseline-shift:sub;fill:#006d2c;fill-opacity:1">3</flowSpan>, and <flowSpan
-   id="flowSpan12979"
-   style="font-style:italic;fill:#a63603;fill-opacity:1">v</flowSpan><flowSpan
-   id="flowSpan12985"
-   style="font-size:65.00091553%;baseline-shift:sub;fill:#a63603;fill-opacity:1">4</flowSpan> as a function of centrality (<flowSpan
-   id="flowSpan13001"
+           id="flowPara13257">Flow distribution parameters as a function of <flowSpan
+   id="flowSpan13282"
+   style="font-style:italic">η</flowSpan>/<flowSpan
+   id="flowSpan13284"
+   style="font-style:italic">s</flowSpan> in the 20-25% centrality bin (<flowSpan
+   id="flowSpan13286"
    style="font-style:italic">N</flowSpan><flowSpan
-   id="flowSpan13003"
-   style="font-size:65.00091553%;baseline-shift:sub">part</flowSpan>).  Colored curves represent model calculations; each plot contains 256 curves corresponding to the 256 points in parameter space.</flowPara><flowPara
-           id="flowPara12987" /><flowPara
-           id="flowPara12989">Points are experimental data measured by the ATLAS Collaboration, JHEP <flowSpan
-   id="flowSpan12991"
-   style="font-weight:bold">1311</flowSpan>, 183 (2013).  Error bars are systematic uncertainties.</flowPara><flowPara
-           id="flowPara12925" /></flowRoot>      <g
-         id="g13042"
-         style="stroke-linecap:butt;stroke-linejoin:round">
-        <path
-           sodipodi:nodetypes="ccc"
-           inkscape:connector-curvature="0"
-           id="path12949"
-           d="m 343.51881,1361.8405 4.76701,10.4359 -4.76701,10.4358"
-           style="fill:none;stroke:#262626;stroke-width:1.375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-        <path
-           style="fill:none;stroke:#262626;stroke-width:1.375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-           d="m 320.11523,1361.8405 -4.76702,10.4359 4.76702,10.4358"
-           id="path12951"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="ccc" />
-      </g>
-      <g
-         style="stroke-linecap:butt;stroke-linejoin:round"
-         transform="translate(390.51579,0)"
-         id="g13046">
-        <path
-           style="fill:none;stroke:#262626;stroke-width:1.375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-           d="m 343.51881,1361.8405 4.76701,10.4359 -4.76701,10.4358"
-           id="path13048"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="ccc" />
-        <path
-           sodipodi:nodetypes="ccc"
-           inkscape:connector-curvature="0"
-           id="path13050"
-           d="m 320.11523,1361.8405 -4.76702,10.4359 4.76702,10.4358"
-           style="fill:none;stroke:#262626;stroke-width:1.375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-      </g>
-    </g>
+   id="flowSpan13288"
+   style="font-size:65.00091553%;baseline-shift:sub">part</flowSpan> ~ 200).  Curves are emulator predictions at different values of Glauber parameter <flowSpan
+   id="flowSpan13280"
+   style="font-style:italic">α</flowSpan> and KLN parameter <flowSpan
+   id="flowSpan13278"
+   style="font-style:italic">λ</flowSpan>.</flowPara><flowPara
+           id="flowPara13290" /><flowPara
+           id="flowPara13292">Dashed lines are the ATLAS measurement with systematic uncertainty represented by the grey bands.</flowPara></flowRoot>    </g>
     <text
-       sodipodi:linespacing="100%"
-       id="text13084"
-       y="1849.7393"
-       x="1072.9294"
-       style="font-size:30px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#9c3435;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-       xml:space="preserve"><tspan
-         y="1849.7393"
-         x="1072.9294"
-         id="tspan13086"
-         sodipodi:role="line">Interpolation with a Gaussian process emulator</tspan></text>
-    <flowRoot
-       xml:space="preserve"
-       id="flowRoot13090"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:114.99999762%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#262626;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-       transform="translate(-13.52175,1404.8165)"><flowRegion
-         id="flowRegion13092"><rect
-           id="rect13094"
-           width="907.06219"
-           height="192.5742"
-           x="176.77669"
-           y="507.19019"
-           style="font-size:24px;font-weight:normal;text-align:justify;line-height:114.99999762%;text-anchor:start;fill:#262626;fill-opacity:1;-inkscape-font-specification:Open Sans" /></flowRegion><flowPara
-         id="flowPara13136">Model output is interpolated with a Gaussian process emulator.  The emulator provides predictions at <flowSpan
-   style="font-weight:bold"
-   id="flowSpan13223">arbitrary points</flowSpan> in parameter space with <flowSpan
-   style="font-weight:bold"
-   id="flowSpan13225">quantitative uncertainty</flowSpan>.</flowPara><flowPara
-         id="flowPara13219" /><flowPara
-         id="flowPara13227">Shown here are emulator predictions of the centrality dependence of flow distribution parameters for several values of <flowSpan
-   style="font-style:italic;font-weight:bold"
-   id="flowSpan13231">η</flowSpan><flowSpan
-   style="font-weight:bold"
-   id="flowSpan13235">/</flowSpan><flowSpan
-   style="font-style:italic;font-weight:bold"
-   id="flowSpan13233">s</flowSpan>.  Other parameters are fixed at reasonable defaults.</flowPara></flowRoot>    <text
-       xml:space="preserve"
-       style="font-size:30px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#9c3435;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-       x="1072.9294"
-       y="2511.7393"
-       id="text13239"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan13241"
-         x="1072.9294"
-         y="2511.7393">Constraining <tspan
-   style="font-style:italic"
-   id="tspan13267">η</tspan>/<tspan
-   style="font-style:italic"
-   id="tspan13265">s</tspan></tspan></text>
-    <flowRoot
-       transform="translate(-13.52175,2060.8165)"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:114.99999762%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#262626;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-       id="flowRoot13243"
-       xml:space="preserve"><flowRegion
-         id="flowRegion13245"><rect
-           style="font-size:24px;font-weight:normal;text-align:justify;line-height:114.99999762%;text-anchor:start;fill:#262626;fill-opacity:1;-inkscape-font-specification:Open Sans"
-           y="507.19019"
-           x="176.77669"
-           height="192.5742"
-           width="907.06219"
-           id="rect13247" /></flowRegion><flowPara
-         id="flowPara13257">Flow distribution parameters as a function of <flowSpan
-   style="font-style:italic"
-   id="flowSpan13282">η</flowSpan>/<flowSpan
-   style="font-style:italic"
-   id="flowSpan13284">s</flowSpan> in the 20-25% centrality bin (<flowSpan
-   style="font-style:italic"
-   id="flowSpan13286">N</flowSpan><flowSpan
-   style="font-size:65.00091553%;baseline-shift:sub"
-   id="flowSpan13288">part</flowSpan> ~ 200).  Curves are emulator predictions at different values of Glauber parameter <flowSpan
-   style="font-style:italic"
-   id="flowSpan13280">α</flowSpan> and KLN parameter <flowSpan
-   style="font-style:italic"
-   id="flowSpan13278">λ</flowSpan>.</flowPara><flowPara
-         id="flowPara13290" /><flowPara
-         id="flowPara13292">Dashed lines are the ATLAS measurement with systematic uncertainty represented by the grey bands.</flowPara></flowRoot>    <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#262626;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
        x="1266.5254"
@@ -30491,16 +30512,16 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
-       sodipodi:nodetypes="ccccc"
+       sodipodi:nodetypes="cccc"
        inkscape:connector-curvature="0"
        id="path12525"
-       d="m 1069.697,541.11172 0,729.39998 -934.697,0 0,331.7731 934.697,0"
+       d="m 1069.697,1260.5117 -934.697,0 0,311.7731 934.697,0"
        style="fill:none;stroke:#9c3435;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
     <path
        sodipodi:nodetypes="cccc"
        inkscape:connector-curvature="0"
        id="path12527"
-       d="m 1069.697,1756.5039 -934.697,0 0,434.7891 934.697,0"
+       d="m 1069.697,1762.5039 -934.697,0 0,416.7891 934.697,0"
        style="fill:none;stroke:#9c3435;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
     <path
        style="fill:none;stroke:#9c3435;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
@@ -30508,5 +30529,11 @@
        id="path12533"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#9c3435;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 1069.697,519.77205 0,676.72195"
+       id="path11687"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
   </g>
 </svg>
