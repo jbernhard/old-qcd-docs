@@ -29365,11 +29365,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.23334524"
-     inkscape:cx="2117.3417"
-     inkscape:cy="1801.3714"
+     inkscape:zoom="0.33"
+     inkscape:cx="2188.3775"
+     inkscape:cy="1583.798"
      inkscape:document-units="in"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g12842"
      showgrid="false"
      units="in"
      inkscape:showpageshadow="false"
@@ -29421,7 +29421,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -29742,7 +29742,7 @@
            x="154.27785"
            y="553.25928"
            style="stroke-linecap:butt;stroke-linejoin:round" /></flowRegion><flowPara
-         id="flowPara12515"></flowPara></flowRoot>    <flowRoot
+         id="flowPara12515" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot12517"
        style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:110.00000238%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#262626;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
@@ -29904,7 +29904,11 @@
              y="927.53552"
              x="221.53645"
              sodipodi:role="line"
-             id="tspan12633">S. Bass et. al., Prog. Part. Nucl. Phys. 41, 255 (1998); M. Bleicher et. al., J. Phys. G 25, 1859 (1999).</tspan><tspan
+             id="tspan12633">S. Bass et. al., Prog. Part. Nucl. Phys. <tspan
+   style="font-weight:bold"
+   id="tspan11629">41</tspan>, 255 (1998); M. Bleicher et. al., J. Phys. G <tspan
+   style="font-weight:bold"
+   id="tspan11631">25</tspan>, 1859 (1999).</tspan><tspan
              y="945.53552"
              x="221.53645"
              sodipodi:role="line"
@@ -30101,7 +30105,7 @@
            x="8.5709915"
            y="1168.2279"
            style="stroke-linecap:butt;stroke-linejoin:round" /></flowRegion><flowPara
-         id="flowPara12832"></flowPara></flowRoot>    <text
+         id="flowPara12832" /></flowRoot>    <text
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#262626;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
        x="134.60449"
