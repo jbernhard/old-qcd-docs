@@ -3,16 +3,15 @@
 
 % theme color
 \definecolor{theme}{RGB}{28,90,127}
-\definecolor{themelight}{RGB}{109,184,227}
 \usecolortheme[named=theme]{structure} 
+
+\definecolor{themered}{RGB}{156,44,34}
 
 \definecolor{vnbl}{HTML}{08519c}
 \definecolor{vngr}{HTML}{006d2c}
 \definecolor{vnor}{HTML}{a63603}
 
 \definecolor{grey}{gray}{.4}
-
-\definecolor{themered}{RGB}{200,40,40}
 
 % outer color
 %\usecolortheme{whale}
@@ -23,6 +22,9 @@
 %\usecolortheme{lily}
 \usecolortheme{orchid}
 %\usecolortheme{rose}
+
+\definecolor{almostblack}{HTML}{262626}
+\setbeamercolor{normal text}{fg=almostblack}
 
 
 % modified version of default frametitle with horizontal separation line
@@ -77,7 +79,7 @@
 
 \title{QGP parameter extraction via a global analysis of event-by-event flow coefficient distributions}
 
-\author{Jonah Bernhard}
+\author{Jonah E.\ Bernhard \\ Steffen A.\ Bass}
 
 \institute{ECT*}
 
@@ -165,8 +167,8 @@
     \begin{tikzpicture}
       \footnotesize
       \node (fig) {\includegraphics[width=\textwidth]{ellipticflow_viscous}};
-      \node[anchor=north,xshift=2.5ex,text width=10ex,text centered] at (fig.north) {small $\eta/s$ \\ large $v_2$};
-      \node[anchor=south,xshift=2.5ex,text width=10ex,text centered] at (fig.south) {large $\eta/s$ \\ small $v_2$};
+      \node[anchor=north,xshift=2.5ex,yshift=-1ex,text width=10ex,text centered] at (fig.north) {small $\eta/s$ \\ large $v_2$};
+      \node[anchor=south,xshift=2.5ex,yshift=1ex, text width=10ex,text centered] at (fig.south) {large $\eta/s$ \\ small $v_2$};
     \end{tikzpicture}
 
     \column{.55\textwidth}
@@ -346,10 +348,11 @@
 
 
 \begin{frame}{Flow results summary}
-  \vspace{3ex}
+  \vspace{2ex}
   \centering
-  \hspace{.3\textwidth} Glauber
-  \hfill\tiny Lines: model, Points: ATLAS data \\[1ex]
+  \hspace{.46\textwidth}
+  Glauber
+  \hfill\tiny Lines: model, Points: ATLAS data \normalsize \\[.5ex]
   \includegraphics{lhs-cent-glb}
 \end{frame}
 
@@ -367,13 +370,12 @@
     \end{itemize}
 
     \column{.4\textwidth}
-    \vspace{1em}
     \hyperlink{gp}{\includegraphics[width=\textwidth]{gpr2}} \\[2ex]
     \raggedleft\tiny \emph{Gaussian Processes for Machine Learning}, \\ Rasmussen and Williams, 2006.
   \end{columns}
 
   \centering
-  \vspace{3ex}
+  \vspace{1em}
   \tikz\node[draw,thick,color=theme,text width=.6\textwidth,inner sep=2ex,text badly centered]{
     Emulator predicts \textbf{1000 hours} worth of CPU time in \color{themered}\textbf{1 millisecond}
   };
@@ -382,12 +384,10 @@
 
 
 \begin{frame}{Emulator predictions}
-  \begin{center}
-    \hspace{1ex} Glauber \\[1ex]
-    \includegraphics{emu-cent-glb} \\
-  \end{center}
-
-  \small
+  \centering\vspace{1ex}
+  \hspace{.5ex} Glauber \\[1ex]
+  \includegraphics{emu-cent-glb} \\
+  \small\vspace{1ex}
   \begin{tabular}{rl}
     \textcolor{grey}{Colors} &
     \textcolor{vnbl}{$\boldsymbol{v_2}$}
@@ -401,12 +401,10 @@
 
 
 \begin{frame}{Emulator predictions}
-  \begin{center}
-    \hspace{1ex} Glauber 20--25\% centrality \\[1ex]
-    \includegraphics{emu-etas-glb} \\
-  \end{center}
-
-  \small
+  \centering\vspace{1ex}
+  \hspace{2.8ex} Glauber 20--25\% centrality \\[1ex]
+  \includegraphics{emu-etas-glb} \\
+  \small\vspace{1ex}
   \begin{tabular}{rl}
     \textcolor{grey}{Colors} &
     \textcolor{vnbl}{$\boldsymbol{v_2}$}
@@ -422,18 +420,16 @@
 \begin{frame}{Flow results summary}
   \vspace{2ex}
   \centering
-  \hspace{3ex} KLN \\[1ex]
+  \hspace{3ex} KLN \\[.5ex]
   \includegraphics{lhs-cent-kln}
 \end{frame}
 
 
 
 \begin{frame}{Emulator predictions}
-  \begin{center}
-    \hspace{1ex} KLN \\[1ex]
-    \includegraphics{emu-cent-kln} \\
-  \end{center}
-
+  \centering\vspace{1ex}
+  \hspace{1ex} KLN \\[1ex]
+  \includegraphics{emu-cent-kln} \\
   \small
   \begin{tabular}{rl}
     \textcolor{grey}{Colors} &
@@ -448,11 +444,9 @@
 
 
 \begin{frame}{Emulator predictions}
-  \begin{center}
-    \hspace{1ex} KLN 20--25\% centrality \\[1ex]
-    \includegraphics{emu-etas-kln} \\
-  \end{center}
-
+  \centering\vspace{1ex}
+  \hspace{3ex} KLN 20--25\% centrality \\[1ex]
+  \includegraphics{emu-etas-kln} \\
   \small
   \begin{tabular}{rl}
     \textcolor{grey}{Colors} &
