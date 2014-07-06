@@ -196,7 +196,7 @@
   \begin{columns}
     \column{.45\textwidth}
     \begin{center}
-      \bf Previous work
+      \bf Older work
     \end{center}
     \begin{itemize}
       \item Average calculations.
@@ -210,7 +210,7 @@
 
     \column{.48\textwidth}
     \begin{center}
-      \bf This project$^*$
+      \bf New projects
     \end{center}
     \begin{itemize}
       \item Event-by-event model.
@@ -223,15 +223,20 @@
     \end{itemize}
   \end{columns}
   
-  \vspace{3em}
+  \vspace{2em}
   \scriptsize
-  $^*$ See also J.~Novak, K.~Novak, S.~Pratt, C.~Coleman-Smith and R.~Wolpert, \\ \hspace{3ex} PRC \textbf{89}, 034917 (2014), arXiv:1303.5769 [nucl-th].
+  See also: \\
+  \begin{itemize}
+    \item J.~Novak, K.~Novak, S.~Pratt, C.~Coleman-Smith and R.~Wolpert, \\ PRC \textbf{89}, 034917 (2014), arXiv:1303.5769 [nucl-th].
+    \item R.~Soltz \textcolor{red}{REFERENCE}
+  \end{itemize}
 
   %\tikz[overlay,remember picture] \node[xshift=-2ex,yshift=2ex] at (current page.center) {$\large\boldsymbol\Longrightarrow$};
-  \tikz[overlay,remember picture] \node[xshift=-1.4ex,yshift=13ex] at (current page.center) {$\color{theme}\Large\boldsymbol\longrightarrow$};
-  \tikz[overlay,remember picture] \node[xshift=-1.4ex,yshift=6ex] at (current page.center) {$\color{theme}\Large\boldsymbol\longrightarrow$};
-  \tikz[overlay,remember picture] \node[xshift=-1.4ex,yshift=-3ex] at (current page.center) {$\color{theme}\Large\boldsymbol\longrightarrow$};
-  \tikz[overlay,remember picture] \node[xshift=-1.4ex,yshift=-12ex] at (current page.center) {$\color{theme}\Large\boldsymbol\longrightarrow$};
+  \tikz[overlay,remember picture] \node[xshift=-1.4ex,yshift=4ex] at (current page.center) {$\color{theme}\Large\boldsymbol\longrightarrow$};
+  %\tikz[overlay,remember picture] \node[xshift=-1.4ex,yshift=13ex] at (current page.center) {$\color{theme}\Large\boldsymbol\longrightarrow$};
+  %\tikz[overlay,remember picture] \node[xshift=-1.4ex,yshift=6ex] at (current page.center) {$\color{theme}\Large\boldsymbol\longrightarrow$};
+  %\tikz[overlay,remember picture] \node[xshift=-1.4ex,yshift=-3ex] at (current page.center) {$\color{theme}\Large\boldsymbol\longrightarrow$};
+  %\tikz[overlay,remember picture] \node[xshift=-1.4ex,yshift=-12ex] at (current page.center) {$\color{theme}\Large\boldsymbol\longrightarrow$};
   %\tikz[overlay,remember picture] \node at (current page.south east) {
   %  \scriptsize
   %  See also J.~Novak, K.~Novak, S.~Pratt, C.~Coleman-Smith and R.~Wolpert, PRC \textbf{89}, 034917, 2014, arXiv:1303.5769 [nucl-th].
@@ -460,6 +465,27 @@
 \end{frame}
 
 
+\begin{frame}{Intermission}
+  \begin{itemize}
+    \item Framework for massive event-by-event model-to-data comparison.
+    \item Systematic model validation / exclusion.
+      \begin{itemize}
+        \item Glauber qualitatively describes data.
+        \item KLN does not.
+      \end{itemize}
+    \item Repeat with more advanced models, especially initial conditions.
+      \bgs
+    \item Rigorously calibrate model to data \\
+      $\rarr$ extract optimal parameters with uncertainty.
+    \item Consider other observables, e.g.\ identified particle spectra, $dN_\text{ch}/dy$.
+      \bgs
+    \item \emph{Solve the finite-multiplicity problem.}
+  \end{itemize}
+\end{frame}
+
+
+\section{Finite multiplicity}
+
 \begin{frame}{Finite-multiplicity smearing}
   \def\obs{^\text{obs}}
 
@@ -518,30 +544,36 @@
 \end{frame}
 
 
-\begin{frame}{Finite-multiplicity correction:  the fundamental problem}
+\begin{frame}{The fundamental problem}
   \begin{itemize}
-    \item Finite-multiplicity smearing is a surjective map.
-    \item An observed flow distribution may have multiple possible origin distributions.
+    \item Finite-multiplicity smearing is not a one-to-one map.
+    \item An observed flow distribution may have multiple possible origin distributions (within uncertainty).
   \end{itemize}
-  \begin{center}
+  \begin{columns}
+    \column{.7\textwidth}
+    \vspace{1em}
+    \includegraphics{problem}
+    \column{.3\textwidth}
+    \hspace{-3em}
     \begin{tikzpicture}
-      \node (l1) {$P_a(v_n^\text{true})$};
-      \node[below of=l1] (l2) {$P_b(v_n^\text{true})$};
-      \node[below of=l2] (l3) {$P_c(v_n^\text{true})$};
-      \node[below of=l3] (l4) {$P_d(v_n^\text{true})$};
-      \node[right of=l1, node distance=.3\textwidth] (r1) {$P_a(v_n^\text{obs})$};
-      \node[right of=l2, node distance=.3\textwidth] (r2) {$P_b(v_n^\text{obs})$};
-      \node[right of=l3, node distance=.3\textwidth] (r3) {$P_c(v_n^\text{obs})$};
+      \small
+      \node              (l1) {$P_A(v_n^\text{true})$};
+      \node[below of=l1] (l2) {$P_B(v_n^\text{true})$};
+      \node[below of=l2] (l3) {$P_C(v_n^\text{true})$};
+      \node[below of=l3] (l4) {$P_D(v_n^\text{true})$};
+      \node[right of=l1, node distance=6em]              (r1) {$P_A(v_n^\text{obs})$};
+      \node[right of=l2, node distance=6em]              (r2) {$P_B(v_n^\text{obs})$};
+      \node[right of=l3, node distance=6em, yshift=-2ex] (r3) {$P_C(v_n^\text{obs})$};
       \draw[thick,->,theme] (l1) -- (r1);
       \draw[thick,->,theme] (l2) -- (r2);
       \draw[thick,->,themered] (l3) -- (r3);
       \draw[thick,->,themered] (l4) -- (r3);
     \end{tikzpicture}
-  \end{center}
+  \end{columns}
 \end{frame}
 
 
-\begin{frame}{Finite-multiplicity correction:  possibilities}
+\begin{frame}{Possible solutions}
   \begin{itemize}
     \item Discard the bad points.
       \begin{itemize}
@@ -565,31 +597,13 @@
       \end{itemize}
     \item Oversample hydro.
       \begin{itemize}
-        \item Significantly increases computation time and storage space.
+        \item Need \emph{many} particles: smearing is $\sim 1/\sqrt M$.
+        \item Significantly increases computation time and disk usage.
       \end{itemize}
   \end{itemize}
 \end{frame}
 
 
-
-\section{Conclusion}
-
-\begin{frame}{Summary \& outlook}
-  \begin{itemize}
-    \item Framework for massive event-by-event model-to-data comparison.
-    \item Systematic model validation / exclusion.
-      \begin{itemize}
-        \item Glauber qualitatively describes data.
-        \item KLN does not.
-      \end{itemize}
-    \item Repeat with more advanced models, especially initial conditions.
-      \bgs
-    \item Solve the finite-multiplicity problem.
-    \item Rigorously calibrate model to data \\
-      $\rarr$ extract optimal parameters with uncertainty.
-    \item Consider other observables, e.g.\ identified particle spectra, $dN_\text{ch}/dy$.
-  \end{itemize}
-\end{frame}
 
 
 
